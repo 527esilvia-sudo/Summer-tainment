@@ -46,3 +46,17 @@ a {
   text-align: center;
   margin-top: 0px;
 }
+.Logo {
+    width:72px;
+    margin: 0;    
+    display: inline;
+    position: relative;
+}
+
+.navbar-nav {
+  margin-left:60px;
+}
+
+.nav-link.active {
+  
+}
