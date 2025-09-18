@@ -3,10 +3,11 @@ h1.Super {
 }
 
 h1 {
-  font-family: fantasy;
-  font-size: 5em;
-  font-weight: 700;
-  margin-top: 250px;
+  margin-top: 15%; 
+  font-family: "cc-stormtrooper-body", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5em;
 }
 
 
@@ -30,10 +31,13 @@ body {
 }
 
 
-.nav-link {
-  font-family: fantasy;
-  font-size: 3em;
-  color: #0D47A1;
+.nav-link
+{
+font-size: 2.5em;
+font-family: "cc-stormtrooper-body", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #0D47A1;
 }
 
 .background-image {
@@ -46,17 +50,28 @@ a {
   text-align: center;
   margin-top: 0px;
 }
+
 .Logo {
-    width:72px;
-    margin: 0;    
-    display: inline;
-    position: relative;
+  width: 72px;
+  margin: 0;
+  display: inline;
+  position: relative;
+}
+
+.Logo:hover{
+    transform: scale(1.5);
+    transition:0.3s;
+   filter: drop-shadow( 8px 8px 10px white);
+  
 }
 
 .navbar-nav {
-  margin-left:60px;
+  margin-left: 30px;
+  margin-top:0;
+  padding-top:0;
 }
 
-.nav-link.active {
+a.nav-link:hover {
+  filter: drop-shadow(8px 8px 10px rgb(255, 30, 0));
   
 }
