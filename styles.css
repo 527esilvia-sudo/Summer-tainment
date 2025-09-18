@@ -1,0 +1,48 @@
+h1.Super {
+  color: rgb(197, 7, 7);
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 5em;
+  font-weight: 700;
+  margin-top: 250px;
+}
+
+
+body {
+  height: 100vh;
+  background-image: url("/superman.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.nav-link {
+  font-family: fantasy;
+  font-size: 3em;
+  color: #0D47A1;
+}
+
+.background-image {
+  opacity: 0.9;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-top: 0px;
+}
