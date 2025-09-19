@@ -81,3 +81,8 @@ a.nav-link:hover {
   transform:scale3d(0.8, 0.8, 0.8);
   transition:0.3s;
 }
+
+iframe {
+   border: 7px solid #0D47A1;border-radius:50px;
+   margin-left:10px;
+}
