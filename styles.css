@@ -1,35 +1,60 @@
 h1.Super {
-  color: rgb(197, 7, 7);
   margin-top: 11%;
   font-family: "cc-stormtrooper-body", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3em;
   letter-spacing: 5px;
+  text-transform: uppercase;
+  /* color: rgb(197, 7, 7); */
+ color: rgb(197, 7, 7);
 }
 
-/* {
+.Super span {
+  display: inline-block;
+  /* Allows for transformations like rotating */
+  transition: color 0.5s ease, transform 0.5s ease;
+  /* Smooth transition for changes */
+  /* color: rgba(255, 255, 255, 0); */
+  /* Make letters initially invisible or translucent */
+  text-shadow: 0 0 .5em #fff;
+  /* Add an initial glow effect */
+}
+
+.Super span:hover {
+  color: #F5C700;
+  /* Change to a solid color on hover */
+  text-shadow: 0 0 1em white, 0 0 2em white;
+  /* Enhance the glow on hover */
+  transform: translateY(-5px);
+  /* Example: move the letter up slightly */
+  color: #F5C700;
+  /* Set the text fill color (can be any color, or transparent)  */
+  -webkit-text-stroke: 2px rgb(197, 7, 7);
+}
+
+/* { 
   margin-top: 15%; 
   font-family: "cc-stormtrooper-body", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3.5em;
   
-} */
+}  */
 .Super {
   color: rgb(197, 7, 7);
-  /* Set the text fill color (can be any color, or transparent) */
+  /* Set the text fill color (can be any color, or transparent)  */
   -webkit-text-stroke: 2px #0D47A1;
-  /* Define stroke width and color code from google */
+  /* Define stroke width and color code from google  */
 }
 
-.Super:hover {
+
+/* .Super:hover {
   color: #F5C700;
-  /* Set the text fill color (can be any color, or transparent) */
-  -webkit-text-stroke: 2px rgb(197, 7, 7) ;
-  /* Define stroke width and color code from google */
-}
-
+   /* Set the text fill color (can be any color, or transparent)  */
+/*   */
+/* Define stroke width and color code from google */
+/* }  */
 
 body {
   height: 100vh;
@@ -118,7 +143,7 @@ iframe {
   font-style: normal;
   text-align: center;
   margin-top: auto;
-  margin-bottom:0;
+  margin-bottom: 0;
 
 }
 
@@ -126,6 +151,30 @@ main {
   flex: 1;
 }
 
-/* .Line {
+.gallery {
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(4px 4px 5px #d5c0a5);
+  border-style: solid;
+  /*margin-left:50px;*/
+}
 
-} */
+.gallery:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.flex-container > div {
+
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+     
+}
