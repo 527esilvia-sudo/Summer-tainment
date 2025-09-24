@@ -10,6 +10,13 @@ h1.Super {
  color: rgb(197, 7, 7);
 }
 
+.Troop {
+    font-family: "cc-stormtrooper-body", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
 .Super span {
   display: inline-block;
   /* Allows for transformations like rotating */
@@ -57,10 +64,11 @@ h1.Super {
 /* }  */
 
 body {
-  height: 100vh;
   background-image: url("/superman.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-color: rgba(255, 255, 255, 0.3);
   background-blend-mode: lighten;
   display: flex;
@@ -117,7 +125,7 @@ a {
 }
 
 .Logo {
-  width: 90px;
+ width:90px;
   margin: 0;
   display: inline;
   position: relative;
@@ -171,7 +179,9 @@ main {
 }
 
 .gallery {
-  width: 100%;
+  width: 150px;
+  height:150px;
+  max-width:500px;
   filter: drop-shadow(4px 4px 5px #d5c0a5);
   border-style: solid;
   /*margin-left:50px;*/
@@ -187,7 +197,9 @@ main {
   grid-template-columns: repeat(3, 1fr); /* 3 items per row */
   gap: 20px; /* spacing between items */
   max-width: 500px; /* limits container width so wrapping happens */
-  margin: 0 auto; /* centers the container */
+  margin: 0 auto;
+  flex-wrap:wrap;
+  display:flex; /* centers the container */
 }
 /* Code from chat gpt */
 
