@@ -206,3 +206,65 @@ main {
 .flex-container > div {
   width: 100%; 
 }
+
+.words1 {
+  font-family: "dederon-sans-web", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: rgba(221, 223, 228, 0.2);
+margin-left:35%;
+}
+
+.words2 {
+    font-family: "dederon-sans-web", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: rgba(221, 223, 228, 0.2);
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+gap: 20px;
+}
+
+.Imgline {
+width:300px;
+height:300px;
+display: inline-block;
+}
+
+.Krypto {
+  margin-left:5%;
+    word-spacing: 240px;
+}
+
+.words2 figure.comic {
+  margin:0;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.words {
+font-family: "dederon-sans-web", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: rgba(221, 223, 228, 0.2);
+margin:0;
+}
+
+.actor {
+  width:200px;
+  height:300px;
+}
+
+.links {
+  text-decoration: none;
+  color:black;
+}
+
+.words3 {
+  font-family: "dederon-sans-web", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
